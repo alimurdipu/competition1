@@ -1,0 +1,17 @@
+.no-scrollbar::-webkit-scrollbar{
+    display: none
+}
+.no-scrollbar{
+    -ms-overflow-style:none;
+    scrollbar-width:none
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.asap{
+    font-family: "Asap", sans-serif;
+    font-optical-sizing: auto;
+  }

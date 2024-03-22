@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Competition1</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grid grid-cols-12 inter">
+      <!-- Icon Side start -->
+      <div class="col-span-1 max-h-screen pl-8 p-2 shadow-md shadow-[#d4d2d2]">
+        <div
+          class="w-10 h-10 flex justify-center items-center rounded-lg p-2 bg-[#615EF0]"
+        >
+          <p class="text-xl text-white font-bold font-sans">Q</p>
+        </div>
+        <div class="pt-10">
+          <img class="p-2" src="./assets/icon/Home.svg" alt="" />
+          <img class="p-2" src="./assets/icon/Massage.svg" alt="" />
+          <img class="p-2" src="./assets/icon/Vector.svg" alt="" />
+          <img class="p-2" src="./assets/icon/Search.svg" alt="" />
+          <img class="p-2" src="./assets/icon/calender.svg" alt="" />
+        </div>
+        <div class="pt-52">
+          <img class="p-2 pt-10" src="./assets/icon/Settings.svg" alt="" />
+        </div>
+      </div>
+      <!-- Icon Side end -->
+      <!-- Massage List -->
+      <div class="border border-[#F3F3F3] col-span-3">
+        <div>
+          <div
+            class="flex h-[73px] items-center justify-between border border-[#F3F3F3]"
+          >
+            <div class="flex justify-center items-center p-2 gap-2">
+              <h3 class="font-semibold">Massage</h3>
+              <img src="./assets/icon/DownArrow.svg" alt="" />
+              <p class="bg-[#EDF2F7] text-black w-8 text-center rounded-xl">
+                12
+              </p>
+            </div>
+            <div class="p-2">
+              <img src="./assets/icon/Plus.svg" alt="" />
+            </div>
+          </div>
+          <div class="p-2">
+            <input
+              class="w-full p-2 bg-[#F3F3F3] rounded-lg"
+              placeholder="Search Search messages"
+              type="text"
+            />
+          </div>
+          <div
+            class="h-[calc(100vh-131px)] overflow-hidden overflow-y-auto no-scrollbar space-y-4 p-1"
+          >
+            <div class="w-full flex gap-2 pt-4 px-2">
+              <img class="w-10 h-10" src="./assets/images/Pic1.png" alt="" />
+              <div>
+                <h3 class="font-semibold">Elmer Laverty</h3>
+                <p class="text-sm text-gray-500">Haha oh man 🔥</p>
+                <div class="w-52 flex gap-2 pt-2">
+                  <p
+                    class="w-24 text-center bg-orange-100 text-orange-500 font-semibold py-0.5 px-1 rounded-full"
+                  >
+                    Question
+                  </p>
+                  <p
+                    class="w-32 text-center bg-green-100 text-green-500 font-semibold py-0.5 px-1 rounded-full"
+                  >
+                    Help wanted
+                  </p>
+                </div>
+              </div>
+              <p class="text-gray-500">12m</p>
+            </div>
+            <div class="w-full flex gap-2 py-2 pt-4 px-2 bg-[#f3f3fa] rounded-lg">
+              <img class="w-10 h-10" src="./assets/images/Pic2.png" alt="" />
+              <div>
+                <h3 class="font-semibold">Florencio Dorrance</h3>
+                <p class="text-sm text-gray-500">woohoooo</p>
+                <div class="w-52 flex gap-2 pt-2">
+                  <p
+                    class="w-32 text-center text-gray-500 border border-gray-500 font-semibold py-0.5 px-1 rounded-full"
+                  >
+                    Some content
+                  </p>
+                </div>
+              </div>
+              <p class="text-gray-500">24m</p>
+            </div>
+            <div class="w-full flex gap-2 pt-4 px-2">
+              <img class="w-10 h-10" src="./assets/images/Pic3.png" alt="" />
+              <div>
+                <h3 class="font-semibold">Lavern Laboy</h3>
+                <p class="text-sm text-gray-500">Haha that's terrifying 😂</p>
+                <div class="w-52 flex gap-2 pt-2">
+                  <p
+                    class="w-16 text-center bg-orange-100 text-orange-500 font-semibold py-0.5 px-1 rounded-full"
+                  >
+                    Bug
+                  </p>
+                  <p
+                    class="w-32 text-center bg-green-100 text-green-500 font-semibold py-0.5 px-1 rounded-full"
+                  >
+                    Hacktoberfest
+                  </p>
+                </div>
+              </div>
+              <p class="text-gray-500">1h</p>
+            </div>
+            <div class="w-full flex gap-2 pt-4 px-2">
+              <img class="w-10 h-10" src="./assets/images/Pic4.png" alt="" />
+              <div>
+                <h3 class="font-semibold">Titus Kitamura</h3>
+                <p class="text-sm text-gray-500">omg, this is amazing</p>
+                <div class="w-52 flex gap-2 pt-2">
+                  <p
+                    class="w-24 text-center bg-orange-100 text-orange-500 font-semibold py-0.5 px-1 rounded-full"
+                  >
+                    Question
+                  </p>
+                  <p
+                    class="w-36 text-center text-gray-500 border border-gray-500 font-semibold py-0.5 px-1 rounded-full"
+                  >
+                    Some content
+                  </p>
+                </div>
+              </div>
+              <p class="text-gray-500">5h</p>
+            </div>
+            <div class="w-full flex gap-2 pt-4 px-2">
+              <img class="w-10 h-10" src="./assets/images/Pic5.png" alt="" />
+              <div>
+                <h3 class="font-semibold">Geoffrey Mott</h3>
+                <p class="text-sm text-gray-500">aww 😍</p>
+                <div class="w-52 flex gap-2 pt-2">
+                  <p
+                    class="w-24 text-center bg-green-100 text-green-500 font-semibold py-0.5 px-1 rounded-full"
+                  >
+                    Request
+                  </p>
+                </div>
+              </div>
+              <p class="text-gray-500">2d</p>
+            </div>
+            <div class="w-full flex gap-2 pt-4 px-2">
+              <img class="w-10 h-10" src="./assets/images/Pic6.png" alt="" />
+              <div>
+                <h3 class="font-semibold">Alfonzo Schuessler</h3>
+                <p class="text-sm text-gray-500">perfect!</p>
+                <div class="w-52 flex gap-2 pt-2">
+                  <p
+                    class="w-32 text-center text-gray-500 border border-gray-500 font-semibold py-0.5 px-1 rounded-full"
+                  >
+                    Follow up
+                  </p>
+                </div>
+              </div>
+              <p class="text-gray-500">1m</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Massage List End -->
+      <!-- chatbox -->
+      <div class="col-span-5">
+        <div
+          class="flex h-16 items-center justify-between border border-[#F3F3F3] p-2"
+        >
+          <div class="flex gap-2">
+            <img class="w-10 h-10" src="./assets/images/Pic2.png" alt="" />
+            <div>
+              <h3 class="font-semibold">Florencio Dorrance</h3>
+              <div class="flex items-center gap-2">
+                <div class="w-3 h-3 bg-green-400 rounded-full"></div>
+                <p class="text-gray-500">Online</p>
+              </div>
+            </div>
+          </div>
+          <div class="flex items-center gap-2 bg-[#ebe9fa] p-2 rounded-md">
+            <img src="./assets/icon/call.svg" alt="" />
+            <p class="text-[#615EF0] font-semibold">Call</p>
+          </div>
+        </div>
+        <div
+          class="h-[calc(100vh-125px)] overflow-hidden overflow-y-auto no-scrollbar border-r border-[#F3F3F3]"
+        >
+          <div class="flex gap-2 p-2 pt-4">
+            <img class="w-10 h-10" src="./assets/images/Pic2.png" alt="" />
+            <div class="flex flex-col gap-2">
+              <p class="bg-[#F1F1F1] p-2 rounded-xl">omg, this is amazing</p>
+              <p class="bg-[#F1F1F1] p-2 rounded-xl">perfect! ✅</p>
+              <p class="bg-[#F1F1F1] p-2 rounded-xl">
+                Wow, this is really epic
+              </p>
+            </div>
+          </div>
+          <div class="flex justify-end gap-2 p-2 pt-4">
+            <div class="flex flex-col gap-2">
+              <p class="bg-[#615EF0] text-white p-2 rounded-xl">How are you?</p>
+            </div>
+            <img class="w-10 h-10" src="./assets/images/Pic2.png" alt="" />
+          </div>
+          <div class="flex gap-2 p-2 pt-4">
+            <img class="w-10 h-10" src="./assets/images/Pic2.png" alt="" />
+            <div class="flex flex-col gap-2">
+              <p class="bg-[#F1F1F1] p-2 rounded-xl">
+                just ideas for next time
+              </p>
+              <p class="bg-[#F1F1F1] p-2 rounded-xl">
+                I'll be there in 2 mins ⏰
+              </p>
+            </div>
+          </div>
+          <div class="flex justify-end gap-2 p-2 pt-4">
+            <div class="flex flex-col gap-2">
+              <p class="bg-[#615EF0] text-white p-2 rounded-xl">woohoooo</p>
+              <p class="bg-[#615EF0] text-white p-2 rounded-xl">Haha oh man</p>
+              <p class="bg-[#615EF0] text-white p-2 rounded-xl">
+                Haha that's terrifying 😂
+              </p>
+            </div>
+            <img class="w-10 h-10" src="./assets/images/Pic2.png" alt="" />
+          </div>
+          <div class="flex gap-2 p-2 pt-4">
+            <img class="w-10 h-10" src="./assets/images/Pic2.png" alt="" />
+            <div class="flex flex-col gap-2">
+              <p class="bg-[#F1F1F1] p-2 rounded-xl">aww</p>
+              <p class="bg-[#F1F1F1] p-2 rounded-xl">omg, this is amazing</p>
+              <p class="bg-[#F1F1F1] p-2 rounded-xl">woohoooo 🔥</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-around pt-4 px-2 border-r border-[#F3F3F3]">
+          <img src="./assets/icon/Attach.svg" alt="" />
+          <div
+            class="w-[435px] flex justify-between rounded-lg border-2 border-[#F1F1F1] py-1.5 px-3"
+          >
+            <input
+              class="w-full"
+              placeholder="Type a message"
+              type="text"
+            />
+            <img src="./assets/icon/Send.svg" alt="" />
+          </div>
+        </div>
+      </div>
+      <!-- chatbox End -->
+      <!-- directory -->
+      <div class="col-span-3">
+        <div
+          class="flex h-16 items-center justify-between border border-[#F3F3F3]"
+        >
+          <div class="flex justify-center items-center p-2 gap-2">
+            <h3 class="font-semibold">Directory</h3>
+          </div>
+          <div class="p-2">
+            <img src="./assets/icon/Dots.svg" alt="" />
+          </div>
+        </div>
+        <div
+          class="h-[calc(100vh-67px)] overflow-hidden overflow-y-auto no-scrollbar"
+        >
+          <div class="flex items-center p-2 gap-2">
+            <h3 class="font-semibold">Team Members</h3>
+            <p class="bg-[#EDF2F7] text-black w-6 text-center rounded-xl">6</p>
+          </div>
+          <div class="space-y-2 border-b border-[#F3F3F3]">
+            <div class="flex gap-2 p-2">
+              <img class="w-12 h-12" src="./assets/images/Pic7.png" alt="" />
+              <div>
+                <h3 class="font-semibold">Florencio Dorrance</h3>
+                <p class="text-sm text-gray-500">Market Development Manager</p>
+              </div>
+            </div>
+            <div class="flex gap-2 p-2">
+              <img class="w-12 h-12" src="./assets/images/Pic8.png" alt="" />
+              <div>
+                <h3 class="font-semibold">Benny Spanbauer</h3>
+                <p class="text-sm text-gray-500">Area Sales Manager</p>
+              </div>
+            </div>
+            <div class="flex gap-2 p-2">
+              <img class="w-12 h-12" src="./assets/images/Pic3.png" alt="" />
+              <div>
+                <h3 class="font-semibold">Jamel Eusebio</h3>
+                <p class="text-sm text-gray-500">Administrator</p>
+              </div>
+            </div>
+            <div class="flex gap-2 p-2">
+              <img class="w-12 h-12" src="./assets/images/Pic9.png" alt="" />
+              <div>
+                <h3 class="font-semibold">Lavern Laboy</h3>
+                <p class="text-sm text-gray-500">Account Executive</p>
+              </div>
+            </div>
+            <div class="flex gap-2 p-2">
+              <img class="w-12 h-12" src="./assets/images/Pic10.png" alt="" />
+              <div>
+                <h3 class="font-semibold">Alfonzo Schuessler</h3>
+                <p class="text-sm text-gray-500">Proposal Writer</p>
+              </div>
+            </div>
+            <div class="flex gap-2 p-2">
+              <img class="w-12 h-12" src="./assets/images/Pic11.png" alt="" />
+              <div>
+                <h3 class="font-semibold">Daryl Nehls</h3>
+                <p class="text-sm text-gray-500">Nursing Assistant</p>
+              </div>
+            </div>
+          </div>
+          <div class="flex items-center p-2 gap-2">
+            <h3 class="font-semibold">Files</h3>
+            <p class="bg-[#EDF2F7] text-black w-10 text-center rounded-xl">
+              125
+            </p>
+          </div>
+          <div>
+            <div class="flex justify-between p-2">
+              <div class="flex gap-2">
+                <img class="w-12 h-12" src="./assets/icon/File.svg" alt="" />
+                <div>
+                  <h3 class="font-semibold">i9.pdf</h3>
+                  <p class="text-sm text-gray-500">9mb PDF</p>
+                </div>
+              </div>
+              <img src="./assets/icon/Download.svg" alt="" />
+            </div>
+            <div class="flex justify-between p-2">
+              <div class="flex gap-2">
+                <img class="w-12 h-12" src="./assets/icon/Gallery.svg" alt="" />
+                <div>
+                  <h3 class="font-semibold">Screenshot-3817.png</h3>
+                  <p class="text-sm text-gray-500">PNG 4mb</p>
+                </div>
+              </div>
+              <img src="./assets/icon/Download.svg" alt="" />
+            </div>
+            <div class="flex justify-between p-2">
+              <div class="flex gap-2">
+                <img
+                  class="w-12 h-12"
+                  src="./assets/icon/ShareFile.svg"
+                  alt=""
+                />
+                <div>
+                  <h3 class="font-semibold">sharefile.docx</h3>
+                  <p class="text-sm text-gray-500">DOC 55kb</p>
+                </div>
+              </div>
+              <img src="./assets/icon/Download.svg" alt="" />
+            </div>
+            <div class="flex justify-between p-2">
+              <div class="flex gap-2">
+                <img class="w-12 h-12" src="./assets/icon/Jerry.svg" alt="" />
+                <div>
+                  <h3 class="font-semibold">Jerry-2020_I-9_Form.xxl</h3>
+                  <p class="text-sm text-gray-500">XXL 24mb</p>
+                </div>
+              </div>
+              <img src="./assets/icon/Download.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- directory End -->
+    </div>
+  </body>
+</html>
